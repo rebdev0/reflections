@@ -1,0 +1,34 @@
+Reflections
+
+Lesson 1:  How did viewing a diff between two versions help you spot the bug?
+
+When you view the differences between to versions, you can easily see what specific lines, words, and characters changed.  This is an easy way to spot an error caused by a typo within or the addition or deletion of a word.
+
+Question 2:  How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Thought process - 
+By having access to the entire history of a file, you are able to go back and look at the different changes you made to the file along the way. 
+It allows you to go back and review your thought process for creating the file.  This could help if you had a similar project in the future where you have to incrementally build something - you can follow the same steps to produce a result.
+Technique capturing - 
+Saving the history of a file also allows you to see how you have grown or matured as a programmer.  You may initially solve a programming challenge using one technique, but then learn about another technique and modify your code.  By reviewing your history, you can see how you have learned new techniques and applied them to your code, making your code more efficient 
+Problem solving  - 
+Keeping the history of a file allows you quick access to answers as to how to solve certain programming challenges.  If you encounter a similar problem in the future, you won't have to re-create the wheel - you can just reuse your code.
+Debugging -
+If you have a history of your file, you can easily track down your mistakes if something has changed from one version to the next.  When you discover your mistake, fix it, and recommit, you'll have a record of mistakes you made in the past.  Hopefully you will learn from these mistakes and not make them again in the future.
+ 
+Question 3:  What do you think are the pros and cons of manually choosing when to commit, like you do in Git, versus having versions automatically saved like in Google Docs?
+
+Pros:	you get to commit on logical changes, you can control the history of your file which makes for easier debugging and code review (possibly)
+Cons:	you could still save too frequently or not enough - you have to make a concious decision of when a logical commit point is, you could forget to save and lose your work
+
+Question 4:  How can you use the commands git log and git diff to view the history of files?
+You can use git log to look at the comments that were added between different commits.  This will give you a high level overview of what was changed according to the author of the file.
+You can use git diff to show the exact differences between two versions of a file.  You can see the exact lines and text that changed, not just the logical concept/bug fix/whatever that the user said changed.
+
+Question 5:  How might using version control make you more confident to make changes that could break something?
+
+Using version control can make you more confidence to make changes that could break something because it allows you to easily revert back to different versions of your code.  If you make a change that breaks the current code, you can quickly do a diff to see what you might have done to break the code.  You don't lose the progress you made in building your code so you don't lose your forward progress.
+
+Question 6:  Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to try using it for my personal coding projects.
