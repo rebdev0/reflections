@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+You would want to use a remote repository when you are working on a project from multiple locations.  For instance, if you are working on a development project on your work computer during the week and want to continue developing on the weekend, you could store your project on a remote repository and push/pull the files from multiple locations.
+
+Additionally, you'd want to use a remote repository any time you have more than one developer working on a project.  Rather than developing separately and sharing changes via some method like e-mail, if you create a remote repository you can both push/pull changes to the project without a lot of extra coordination.
